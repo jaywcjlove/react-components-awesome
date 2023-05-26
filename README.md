@@ -153,7 +153,7 @@ _使用 Canvas 或 SVG 绘制草图输入_
 - [framer-motion](https://npmjs.com/package/framer-motion) <img align="bottom" height="13" src="https://img.shields.io/github/stars/framer/motion.svg?label=" /> 动画和手势库 [![Open-Source Software][OSS Icon]](https://github.com/framer/motion)
 <!--UI 动画 END-->
 
-### Miscellaneous 各种各样的
+### 各种各样的
 
 <!--各种各样的 START-->
 <!--各种各样的 END-->
