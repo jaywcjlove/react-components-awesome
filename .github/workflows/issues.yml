@@ -73,3 +73,6 @@ jobs:
               repo: context.repo.repo,
               body: 'Oh no! We were unable to detect any valid packages in your submission. If you submitted the wrong URL and would like to update it, please [open a new issue](https://github.com/jaywcjlove/react-components-awesome/issues/new/choose).\n\n>Validate Error: ${{ steps.validate.outputs.validateError || 'None' }}'
             })
+
+      - run: npm install idoc@1.25.3 -g
+      - run: idoc -s "React Components Awesome"
