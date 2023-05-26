@@ -46,14 +46,14 @@ jobs:
             ## Original Message
 
             ${{ github.event.issue.body }}
-
+      - run: echo ${{ steps.check.outputs.changes }}
       - name: Update Issue (Success)
         if: steps.check.outputs.changes == 'true'
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            github.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
@@ -66,7 +66,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            github.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
