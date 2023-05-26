@@ -6,6 +6,7 @@ React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjl
 ### 表格
 
 <!--表格 START-->
+- [rsuite-table](https://npmjs.com/package/rsuite-table) <img align="bottom" height="13" src="https://img.shields.io/github/stars/rsuite/rsuite-table.svg?label=" /> 一个 React 表格组件 [![Open-Source Software][OSS Icon]](https://github.com/rsuite/rsuite-table)
 <!--表格 END-->
 
 ### 无限滚动
