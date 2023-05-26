@@ -41,29 +41,29 @@ body:
     attributes:
       label: 选择一个分类
       options:
-        - Table 表格
-        - Infinite Scroll 无限滚动
-        - Overlay 叠加
-        - Notification 通知
-        - Tooltip 工具提示
-        - Menu 菜单
+        - 表格
+        - 无限滚动
+        - 叠加
+        - 通知
+        - 工具提示
+        - 菜单
         - Sticky
-        - Tabs 选项卡
-        - Loader 加载
+        - 选项卡
+        - 加载
         - Carousel
-        - Buttons 按钮
+        - 按钮
         - Collapse
-        - Chart 图表
-        - Command palette 命令面板
-        - Tree 树
-        - UI Navigation 用户界面导航
-        - Custom Scrollbar 自定义滚动条
-        - Audio / Video 音频视频
-        - Map 地图
-        - Time/Date/Age 时间/日期/年龄
-        - Photo/Image 照片/图像
-        - Icons 图标
-        - Paginator 分页器
+        - 图表
+        - 命令面板
+        - 树
+        - 用户界面导航
+        - 自定义滚动条
+        - 音频视频
+        - 地图
+        - 时间/日期/年龄
+        - 照片/图像
+        - 图标
+        - 分页器
         - Markdown 预览
-        - Canvas 画布
-        - Miscellaneous 各种各样的
+        - 画布
+        - 各种各样的
