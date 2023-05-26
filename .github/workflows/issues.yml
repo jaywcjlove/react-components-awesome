@@ -46,7 +46,7 @@ jobs:
 
       - name: Update Issue (Success)
         if: steps.check.outputs.changes == 'true'
-        uses: actions/github-script@v3
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -59,7 +59,7 @@ jobs:
 
       - name: Update Issue (Failure)
         if: ${{ failure() || steps.check.outputs.changes != 'true' }}
-        uses: actions/github-script@v3
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
