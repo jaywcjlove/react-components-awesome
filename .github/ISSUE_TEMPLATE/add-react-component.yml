@@ -1,7 +1,6 @@
 name: 添加 React 组件
 description: 添加一个 React 组件
 title: 'Add <组件名称>'
-labels: ['添加组件']
 
 body:
   - type: markdown
