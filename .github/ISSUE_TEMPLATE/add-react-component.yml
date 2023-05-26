@@ -23,7 +23,7 @@ body:
     attributes:
       label: 组件说明项目
       description: 您可以在这里简明扼要的语言描述一下 React 组件。
-      placeholder: 【请您在这里介绍一下工具或者语言，这很重要】
+      placeholder: 描述一下 React 组件
     validations:
       required: true
 
