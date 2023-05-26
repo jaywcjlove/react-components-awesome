@@ -22,7 +22,16 @@ React Components Awesome
 
 ### 通知
 
+_用一个无模式的临时小弹出窗口通知用户_
+
 <!--通知 START-->
+- [react-notifications-component](https://npmjs.com/package/react-notifications-component) <img align="bottom" height="13" src="https://img.shields.io/github/stars/teodosii/react-notifications-component.svg?label=" /> 高度可定制且易于使用的通知组件 [![Open-Source Software][OSS Icon]](https://github.com/teodosii/react-notifications-component)
+- [notistack](https://npmjs.com/package/notistack) <img align="bottom" height="13" src="https://img.shields.io/github/stars/iamhosseindhv/notistack.svg?label=" /> 高度可定制的通知快餐栏（吐司），可以相互堆叠 [![Open-Source Software][OSS Icon]](https://github.com/iamhosseindhv/notistack)
+- [react-local-toast](https://npmjs.com/package/react-local-toast) <img align="bottom" height="13" src="https://img.shields.io/github/stars/OlegWock/react-local-toast.svg?label=" /> 显示链接到特定组件的反馈而不是应用程序范围的 toasts [![Open-Source Software][OSS Icon]](https://github.com/OlegWock/react-local-toast)
+- [react-toast](https://npmjs.com/package/react-toast) <img align="bottom" height="13" src="https://img.shields.io/github/stars/moharnadreza/react-toast.svg?label=" /> 最少的 toast 通知 [![Open-Source Software][OSS Icon]](https://github.com/moharnadreza/react-toast)
+- [react-toastify](https://npmjs.com/package/react-toastify) <img align="bottom" height="13" src="https://img.shields.io/github/stars/fkhadra/react-toastify.svg?label=" /> 目前最好的选择 Hook 支持 [![Open-Source Software][OSS Icon]](https://github.com/fkhadra/react-toastify)
+- [reapop](https://npmjs.com/package/reapop) <img align="bottom" height="13" src="https://img.shields.io/github/stars/LouisBarranqueiro/reapop.svg?label=" /> - React & Redux 通知系统。 [![Open-Source Software][OSS Icon]](https://github.com/LouisBarranqueiro/reapop)
+- [react-hot-toast](https://npmjs.com/package/react-hot-toast) <img align="bottom" height="13" src="https://img.shields.io/github/stars/timolins/react-hot-toast.svg?label=" /> React 的吸烟热通知。默认情况下轻巧，可定制且美观。 [![Open-Source Software][OSS Icon]](https://github.com/timolins/react-hot-toast)
 <!--通知 END-->
 
 ### 工具提示
