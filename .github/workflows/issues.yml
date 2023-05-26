@@ -17,6 +17,6 @@ jobs:
       - run: npm install
 
       - name: Add React Component to README.md
-        run: node dist/add_component.mjs
+        run: node .github/add_component.mjs
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
