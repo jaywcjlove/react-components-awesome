@@ -19,4 +19,4 @@ jobs:
       - name: Add React Component to README.md
         run: node .github/add_component.mjs
         env:
-          GH_BODY: ${{ github.event.issue.body }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
