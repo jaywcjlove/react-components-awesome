@@ -38,31 +38,30 @@ body:
   - type: dropdown
     attributes:
       label: 选择一个分类
-      multiple: true
       options:
-        - Table
-        - Infinite Scroll
-        - Overlay
-        - Notification
-        - Tooltip
-        - Menu
+        - Table 表格
+        - Infinite Scroll 无限滚动
+        - Overlay 叠加
+        - Notification 通知
+        - Tooltip 工具提示
+        - Menu 菜单
         - Sticky
-        - Tabs
-        - Loader
+        - Tabs 选项卡
+        - Loader 加载
         - Carousel
-        - Buttons
+        - Buttons 按钮
         - Collapse
-        - Chart
-        - Command palette
-        - Tree
-        - UI Navigation
-        - Custom Scrollbar
-        - Audio / Video
-        - Map
-        - Time / Date / Age
-        - Photo / Image
-        - Icons
-        - Paginator
-        - Markdown Viewer
-        - Canvas
-        - Miscellaneous
+        - Chart 图表
+        - Command palette 命令面板
+        - Tree 树
+        - UI Navigation 用户界面导航
+        - Custom Scrollbar 自定义滚动条
+        - Audio / Video 音频视频
+        - Map 地图
+        - Time/Date/Age 时间/日期/年龄
+        - Photo/Image 照片/图像
+        - Icons 图标
+        - Paginator 分页器
+        - Markdown Viewer Markdown 预览
+        - Canvas 画布
+        - Miscellaneous 各种各样的
