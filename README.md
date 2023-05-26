@@ -135,6 +135,7 @@ React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjl
 ### UI 动画
 
 <!--UI 动画 START-->
+- [framer-motion](https://npmjs.com/package/framer-motion) <img align="bottom" height="13" src="https://img.shields.io/github/stars/framer/motion.svg?label=" /> 动画和手势库 [![Open-Source Software][OSS Icon]](https://github.com/framer/motion)
 <!--UI 动画 END-->
 
 ### Miscellaneous 各种各样的
