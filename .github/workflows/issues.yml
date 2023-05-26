@@ -31,12 +31,15 @@ jobs:
         if: steps.check.outputs.changes == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           add-paths: |
             README.md
           commit-message: ${{ github.event.issue.title }}
           title: ${{ github.event.issue.title }}
           branch: spi-auto-${{ github.event.issue.number }}
           delete-branch: true
+          committer: GitHub <noreply@github.com>
+          author: GitHub <noreply@github.com>
           body: |
             Closes #${{ github.event.issue.number }}
 
