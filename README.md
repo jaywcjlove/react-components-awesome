@@ -142,9 +142,4 @@ React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjl
 <!--各种各样的 START-->
 <!--各种各样的 END-->
 
-### UI 动画
-
-<!--各种各样的 START-->
-<!--各种各样的 END-->
-
 [OSS Icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg "Open source ui componet on Github"
