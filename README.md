@@ -134,7 +134,7 @@ _使用 Canvas 或 SVG 绘制草图输入_
 <!--画布 START-->
 - [react-konva](https://npmjs.com/package/react-konva) - 一个 JavaScript 库，用于通过绑定到 Konva 框架来绘制复杂的画布图形 [![Open-Source Software][OSS Icon]](https://github.com/konvajs/react-konva)
 - [react-sketch](https://npmjs.com/package/react-sketch) - 基于 React 的应用程序的 Sketch 工具，由 FabricJS 支持 [![Open-Source Software][OSS Icon]](https://github.com/tbolis/react-sketch)
-- [react-sketch-canvas](https://npmjs.com/package/react-sketch-canvas) - 使用 SVG 作为画布的 React 手绘矢量绘图工具。接受来自鼠标、触摸屏和绘图板的输入 [![Open-Source Software][OSS Icon]](https://github.com/vinothpandian/react-sketch-canvas)
+- [react-sketch-canvas](https://npmjs.com/package/react-sketch-canvas) - 使用 SVG 作为画布的 React 手绘矢量绘图工具 [![Open-Source Software][OSS Icon]](https://github.com/vinothpandian/react-sketch-canvas)
 - [@uiw/react-heat-map](https://npmjs.com/package/@uiw/react-heat-map) - 基于 SVG 构建的轻量级日历热图反应组件，GitHub 贡献图的可定制版本 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-heat-map)
 <!--画布 END-->
 
