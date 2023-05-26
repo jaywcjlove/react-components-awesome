@@ -18,3 +18,51 @@ body:
       placeholder: ex. https://github.com/uiwjs/react-codemirror
     validations:
       required: true
+
+  - type: textarea
+    attributes:
+      label: 组件说明项目
+      description: 您可以在这里简明扼要的语言描述一下 React 组件。
+      placeholder: 【请您在这里介绍一下工具或者语言，这很重要】
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: NPM 地址
+      description: 提供文档网站地址
+      placeholder: ex. https://www.npmjs.com/package/@uiw/react-codemirror
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 选择一个分类
+      multiple: true
+      options:
+        - Table
+        - Infinite Scroll
+        - Overlay
+        - Notification
+        - Tooltip
+        - Menu
+        - Sticky
+        - Tabs
+        - Loader
+        - Carousel
+        - Buttons
+        - Collapse
+        - Chart
+        - Command palette
+        - Tree
+        - UI Navigation
+        - Custom Scrollbar
+        - Audio / Video
+        - Map
+        - Time / Date / Age
+        - Photo / Image
+        - Icons
+        - Paginator
+        - Markdown Viewer
+        - Canvas
+        - Miscellaneous
