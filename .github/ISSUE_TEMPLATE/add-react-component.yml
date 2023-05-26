@@ -36,6 +36,8 @@ body:
       required: true
 
   - type: dropdown
+    validations:
+      required: true
     attributes:
       label: 选择一个分类
       options:
