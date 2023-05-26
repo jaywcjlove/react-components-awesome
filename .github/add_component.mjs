@@ -29,21 +29,21 @@ function modifyContent(start, end, fileContent, data, npmname) {
   }
 }
 
-process.env.ISSUE_BODY = `### Github 仓库地址
+// process.env.ISSUE_BODY = `### Github 仓库地址
 
-https://github.com/rsuite/rsuite-table
+// https://github.com/rsuite/rsuite-table
 
-### NPM 包名称
+// ### NPM 包名称
 
-rsuite-table
+// rsuite-table
 
-### 组件说明项目
+// ### 组件说明项目
 
-一个 React 表格组件
+// 一个 React 表格组件
 
-### 选择一个分类
+// ### 选择一个分类
 
-表格`
+// 表格`
 
 const issueBody = process.env.ISSUE_BODY;
 
