@@ -29,9 +29,9 @@ body:
 
   - type: input
     attributes:
-      label: NPM 地址
-      description: 提供文档网站地址
-      placeholder: ex. https://www.npmjs.com/package/@uiw/react-codemirror
+      label: NPM 包名称
+      description: 提供 npm 安装包名称
+      placeholder: "@uiw/react-codemirror"
     validations:
       required: true
 
