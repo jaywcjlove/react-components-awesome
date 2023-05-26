@@ -29,21 +29,21 @@ function modifyContent(start, end, fileContent, data, npmname) {
   }
 }
 
-// process.env.ISSUE_BODY = `### Github 仓库地址
+process.env.ISSUE_BODY = `### Github 仓库地址
 
-// https://github.com/uiwjs/react-markdown-preview
+https://github.com/rsuite/rsuite-table
 
-// ### 组件说明项目
+### NPM 包名称
 
-// 在 Web 浏览器中 React 组件预览 Markdown 文本。 复制 GitHub Markdown 样式的最少量 CSS。 支持黑暗模式/夜间模式。
+rsuite-table
 
-// ### NPM 地址
+### 组件说明项目
 
-// @uiw/react-markdown-preview
+一个 React 表格组件
 
-// ### 选择一个分类
+### 选择一个分类
 
-// Markdown 预览`
+表格`
 
 const issueBody = process.env.ISSUE_BODY;
 
@@ -59,15 +59,20 @@ const data = issueBody.split('### ').filter(Boolean);
 const githubUrlRegex = /^(https?:\/\/)?(www\.)?github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+(\/)?$/;
 const githubUrl = data[0].split('\n').filter(Boolean)[1];
 if (githubUrlRegex.test(githubUrl)) {
-  info(`是 GitHub 地址: \x1b[32;1m${githubUrl}\x1b[0m`);
+  info(`GitHub URL: \x1b[32;1m${githubUrl}\x1b[0m`);
 } else {
   setFailed(`不是 GitHub 地址: \x1b[32;1m${githubUrl}\x1b[0m`);
 }
 
 ;(async () => {
-  const npmname = data[2].split('\n').filter(Boolean)[1]?.trim();
+  const npmname = data[1].split('\n').filter(Boolean)[1]?.trim();
   const validateNpm = validate(npmname || '');
   
+  const description = data[2].split('\n').filter(Boolean)[1];
+  if (description.length > 100 && description.length < 10) {
+    setFailed('Description length cannot exceed 100 characters and cannot be less than 10 characters');
+  }
+
   if (validateNpm.validForNewPackages && validateNpm.validForOldPackages) {
     info(`Correct npm name: \x1b[32;1m ${npmname}\x1b[0m`);
   } else {
@@ -77,10 +82,6 @@ if (githubUrlRegex.test(githubUrl)) {
 
   const category = data[3].split('\n').filter(Boolean)[1]?.trim();
   
-  const description = data[1].split('\n').filter(Boolean)[1];
-  if (description.length > 100 && description.length < 10) {
-    setFailed('Description length cannot exceed 100 characters and cannot be less than 10 characters');
-  }
   const content = await fs.readFile('./README.md', 'utf8');
   const githubOrg = getGithubOrg(githubUrl).org
   const githubRepo = getGithubOrg(githubUrl).repo
