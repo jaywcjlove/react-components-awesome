@@ -119,6 +119,7 @@ React Components Awesome
 ## Markdown 预览
 
 <!--Markdown 预览 START-->
+- [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) 在 Web 浏览器中 React 组件预览 Markdown 文本。 复制 GitHub Markdown 样式的最少量 CSS。 支持黑暗模式/夜间模式。 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-markdown-preview)
 <!--Markdown 预览 END-->
 
 ## Canvas 画布
