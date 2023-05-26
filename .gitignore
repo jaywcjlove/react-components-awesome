@@ -1,7 +1,6 @@
 build
 esm
 cjs
-dist
 coverage
 node_modules
 npm-debug.log*

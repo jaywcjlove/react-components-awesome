@@ -31,7 +31,6 @@ endGroup();
 const data = issueBody.split('### ').filter(Boolean);
 const githubUrlRegex = /^(https?:\/\/)?(www\.)?github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+(\/)?$/;
 const githubUrl = data[0].split('\n').filter(Boolean)[1];
-console.log('githubUrl', githubUrl);
 if (githubUrlRegex.test(githubUrl)) {
   info(`是 GitHub 地址: \x1b[32;1m${githubUrl}\x1b[0m`);
 } else {
