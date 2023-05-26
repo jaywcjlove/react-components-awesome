@@ -25,7 +25,7 @@ function modifyContent(start, end, fileContent, data, npmname) {
     const newContent = fileContent.slice(0, endIndex) + newData + fileContent.slice(endIndex);
     return newContent
   } else {
-    setFailed(`component duplication: \x1b[31;1m ${end}\x1b[0m`);
+    setFailed(`component duplication: \x1b[31;1m ${npmname} ${end}\x1b[0m`);
   }
 }
 
