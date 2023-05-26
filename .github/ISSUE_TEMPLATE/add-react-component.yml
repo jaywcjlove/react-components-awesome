@@ -13,8 +13,8 @@ body:
 
   - type: input
     attributes:
-      label: Github URL
-      description: Github URL
+      label: Github 仓库地址
+      description: 提供文档网站地址
       placeholder: ex. https://github.com/uiwjs/react-codemirror
     validations:
       required: true
