@@ -26,6 +26,7 @@ jobs:
         run: bash .github/check_for_changes.sh
         id: check
 
+      - run: echo ${{ steps.check.outputs.changes }}
       - name: Create Pull Request
         id: cpr
         if: steps.check.outputs.changes == 'true'
@@ -46,7 +47,7 @@ jobs:
             ## Original Message
 
             ${{ github.event.issue.body }}
-      - run: echo ${{ steps.check.outputs.changes }}
+
       - name: Update Issue (Success)
         if: steps.check.outputs.changes == 'true'
         uses: actions/github-script@v6
