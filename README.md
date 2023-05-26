@@ -11,7 +11,7 @@ React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjl
 ### 无限滚动
 
 <!--无限滚动 START-->
-- [react-window](https://npmjs.com/package/react-window) <img align="bottom" height="13" src="https://img.shields.io/github/stars/react-window.svg?label=" /> 用于高效呈现大型列表和表格数据的 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/bvaughn/react-window)
+- [react-window](https://npmjs.com/package/react-window) <img align="bottom" height="13" src="https://img.shields.io/github/stars/bvaughn/react-window.svg?label=" /> 用于高效呈现大型列表和表格数据的 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/bvaughn/react-window)
 <!--无限滚动 END-->
 
 ### 叠加
@@ -77,7 +77,7 @@ React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjl
 ### 树
 
 <!--树 START-->
-- [react-arborist](https://npmjs.com/package/react-arborist) <img align="bottom" height="13" src="https://img.shields.io/github/stars/react-arborist.svg?label=" /> React 的完整树视图组件 [![Open-Source Software][OSS Icon]](https://github.com/brimdata/react-arborist)
+- [react-arborist](https://npmjs.com/package/react-arborist) <img align="bottom" height="13" src="https://img.shields.io/github/stars/brimdata/react-arborist.svg?label=" /> React 的完整树视图组件 [![Open-Source Software][OSS Icon]](https://github.com/brimdata/react-arborist)
 <!--树 END-->
 
 ### 用户界面导航
@@ -123,7 +123,7 @@ React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjl
 ### Markdown 预览
 
 <!--Markdown 预览 START-->
-- [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) <img align="bottom" height="13" src="https://img.shields.io/github/stars/@uiw/react-markdown-preview.svg?label=" /> 在 Web 浏览器中 React 组件预览 Markdown 文本。 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-markdown-preview)
+- [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-markdown-preview.svg?label=" /> 在 Web 浏览器中 React 组件预览 Markdown 文本。 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-markdown-preview)
 <!--Markdown 预览 END-->
 
 ### Canvas 画布

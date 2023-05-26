@@ -3,6 +3,14 @@ import { setFailed, setOutput, getInput, info, startGroup, endGroup } from '@act
 import validate from 'validate-npm-package-name';
 import fs from 'fs-extra';
 
+function getGithubOrg(url) {
+  const regex = /https:\/\/github\.com\/([^\/]+)\/([^\/]+)/;
+  const match = url.match(regex);
+  const org = match[1];
+  const repo = match[2];
+  return { org, repo }
+}
+
 function modifyContent(start, end, fileContent, data, npmname) {
   // 判断是否重复
   const regex = new RegExp(`-\\s\\[${npmname}\\]\\(`, 'm')
@@ -74,8 +82,10 @@ if (githubUrlRegex.test(githubUrl)) {
     setFailed('Description length cannot exceed 100 characters and cannot be less than 10 characters');
   }
   const content = await fs.readFile('./README.md', 'utf8');
+  const githubOrg = getGithubOrg(githubUrl).org
+  const githubRepo = getGithubOrg(githubUrl).repo
   // const insertData = '- [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) xxxx ![]';
-  const insertData = `- [${npmname}](https://npmjs.com/package/${npmname}) <img align="bottom" height="13" src="https://img.shields.io/github/stars/${npmname}.svg?label=" /> ${description} [![Open-Source Software][OSS Icon]](${githubUrl})`;
+  const insertData = `- [${npmname}](https://npmjs.com/package/${npmname}) <img align="bottom" height="13" src="https://img.shields.io/github/stars/${githubOrg}/${githubRepo}.svg?label=" /> ${description} [![Open-Source Software][OSS Icon]](${githubUrl})`;
   const mContent = modifyContent(`<!--${category} START-->`, `<!--${category} END-->`, content, insertData, npmname);
   if (!mContent) {
     setFailed(`Failed to modify content \x1b[31;1m ${npmname}\x1b[0m`);

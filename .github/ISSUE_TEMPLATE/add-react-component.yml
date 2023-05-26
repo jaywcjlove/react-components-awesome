@@ -19,19 +19,19 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    attributes:
-      label: 组件说明项目
-      description: 您可以在这里简明扼要的语言描述一下 React 组件。
-      placeholder: 描述一下 React 组件
-    validations:
-      required: true
-
   - type: input
     attributes:
       label: NPM 包名称
       description: 提供 npm 安装包名称
       placeholder: "@uiw/react-codemirror"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 组件说明项目
+      description: 您可以在这里简明扼要的语言描述一下 React 组件。
+      placeholder: 描述一下 React 组件
     validations:
       required: true
 
