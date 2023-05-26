@@ -17,6 +17,11 @@ jobs:
       - run: npm install
 
       - name: Add React Component to README.md
-        run: node .github/add_component.mjs
+        run: |
+          node .github/add_component.mjs
+          echo "MY_CONTENT=$(node .github/add_component.mjs)" >> $GITHUB_ENV
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
+      
+      - name: Use content in next step
+        run: echo ${{ env.MY_CONTENT }}
