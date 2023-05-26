@@ -4,7 +4,7 @@ diff --brief README.md README-backup.md >/dev/null
 CONTAINS_CHANGES=$?
 
 if [ $CONTAINS_CHANGES -eq 1 ]; then
-    echo '::set-output name=changes::true'
+    echo "changes=true" >> $GITHUB_OUTPUT
 else
-    echo '::set-output name=changes::false'
+    echo "changes=false" >> $GITHUB_OUTPUT
 fi

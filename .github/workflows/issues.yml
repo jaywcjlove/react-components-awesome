@@ -29,10 +29,10 @@ jobs:
       - name: Create Pull Request
         id: cpr
         if: steps.check.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v5
         with:
           add-paths: |
-            packages.json
+            README.md
           commit-message: ${{ github.event.issue.title }}
           title: ${{ github.event.issue.title }}
           branch: spi-auto-${{ github.event.issue.number }}

@@ -77,7 +77,6 @@ if (githubUrlRegex.test(githubUrl)) {
   // const insertData = '- [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) xxxx ![]';
   const insertData = `- [${npmname}](https://npmjs.com/package/${npmname}) ${description} [![Open-Source Software][OSS Icon]](${githubUrl})`;
   const mContent = modifyContent(`<!--${category} START-->`, `<!--${category} END-->`, content, insertData, npmname);
-  console.log('~~~~::', mContent)
   if (!mContent) {
     setFailed(`Failed to modify content \x1b[31;1m ${npmname}\x1b[0m`);
   }
