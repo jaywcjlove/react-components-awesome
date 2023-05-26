@@ -15,12 +15,57 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
 
       - run: npm install
+      - run: cp README.md README-backup.md 
 
       - name: Add React Component to README.md
-        run: |
-          echo "MY_CONTENT=$(node .github/add_component.mjs)" >> $GITHUB_ENV
+        run: node .github/add_component.mjs
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
       
-      - name: Use content in next step
-        run: echo ${{ env.MY_CONTENT }}
+      - name: Check for Changes
+        run: bash .github/check_for_changes.sh
+        id: check
+
+      - name: Create Pull Request
+        id: cpr
+        if: steps.check.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v3
+        with:
+          add-paths: |
+            packages.json
+          commit-message: ${{ github.event.issue.title }}
+          title: ${{ github.event.issue.title }}
+          branch: spi-auto-${{ github.event.issue.number }}
+          delete-branch: true
+          body: |
+            Closes #${{ github.event.issue.number }}
+
+            ## Original Message
+
+            ${{ github.event.issue.body }}
+
+      - name: Update Issue (Success)
+        if: steps.check.outputs.changes == 'true'
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Thank you! We will approve and add these packages with #${{ steps.cpr.outputs.pull-request-number }}.'
+            })
+
+      - name: Update Issue (Failure)
+        if: ${{ failure() || steps.check.outputs.changes != 'true' }}
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Oh no! We were unable to detect any valid packages in your submission. If you submitted the wrong URL and would like to update it, please [open a new issue](https://github.com/jaywcjlove/react-components-awesome/issues/new/choose).\n\n>Validate Error: ${{ steps.validate.outputs.validateError || 'None' }}'
+            })
