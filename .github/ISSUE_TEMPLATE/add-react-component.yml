@@ -74,5 +74,3 @@ body:
         - Markdown Viewer
         - Canvas
         - Miscellaneous
-    validations:
-      required: true
