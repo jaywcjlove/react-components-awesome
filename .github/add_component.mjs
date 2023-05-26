@@ -76,12 +76,16 @@ if (githubUrlRegex.test(githubUrl)) {
   const content = await fs.readFile('./README.md', 'utf8');
   // const insertData = '- [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) xxxx ![]';
   const insertData = `- [${npmname}](https://npmjs.com/package/${npmname}) ${description} [![Open-Source Software][OSS Icon]](${githubUrl})`;
-  const mContent = modifyContent(`<!--${category} START-->`, `<!--${category} END-->`, content, insertData, npmname)
-
+  const mContent = modifyContent(`<!--${category} START-->`, `<!--${category} END-->`, content, insertData, npmname);
+  console.log('~~~~::', mContent)
+  if (!mContent) {
+    setFailed(`Failed to modify content \x1b[31;1m ${npmname}\x1b[0m`);
+  }
   await fs.writeFile('./README.md', mContent, 'utf8');
   info(`Successfully written ./README.md file`);
 
   startGroup(`\x1b[32;1m File ./README.md \x1b[0m content: `);
   info(`${mContent}`);
   endGroup();
+  return mContent
 })();
