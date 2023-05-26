@@ -1,5 +1,5 @@
-name: "添加 React 组件"
-description: "添加一个 React 组件"
+name: "Add React Component"
+description: "Add React Component"
 title: 'Add <React Component Name>'
 
 body:
@@ -10,3 +10,11 @@ body:
         注意：在这里分享组件按照要求提交，自动生成 PR，否则会被关闭。
         🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧🚧   
 
+
+  - type: input
+    attributes:
+      label: Github URL
+      description: Github URL
+      placeholder: ex. https://github.com/uiwjs/react-codemirror
+    validations:
+      required: true
