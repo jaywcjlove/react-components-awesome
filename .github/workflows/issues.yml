@@ -13,3 +13,10 @@ jobs:
         with:
           node-version: 16
           registry-url: 'https://registry.npmjs.org'
+
+      - run: npm install
+
+      - name: Add React Component to README.md
+        run: node .github/add_component.mjs
+        env:
+          GH_BODY: ${{ github.event.issue.body }}
