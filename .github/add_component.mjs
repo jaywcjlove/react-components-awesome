@@ -21,21 +21,21 @@ function modifyContent(start, end, fileContent, data, npmname) {
   }
 }
 
-process.env.ISSUE_BODY = `### Github 仓库地址
+// process.env.ISSUE_BODY = `### Github 仓库地址
 
-https://github.com/uiwjs/react-markdown-preview
+// https://github.com/uiwjs/react-markdown-preview
 
-### 组件说明项目
+// ### 组件说明项目
 
-在 Web 浏览器中 React 组件预览 Markdown 文本。 复制 GitHub Markdown 样式的最少量 CSS。 支持黑暗模式/夜间模式。
+// 在 Web 浏览器中 React 组件预览 Markdown 文本。 复制 GitHub Markdown 样式的最少量 CSS。 支持黑暗模式/夜间模式。
 
-### NPM 地址
+// ### NPM 地址
 
-@uiw/react-markdown-preview
+// @uiw/react-markdown-preview
 
-### 选择一个分类
+// ### 选择一个分类
 
-Markdown 预览`
+// Markdown 预览`
 
 const issueBody = process.env.ISSUE_BODY;
 
