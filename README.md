@@ -1,7 +1,7 @@
 React Components Awesome
 ===
 
-React 优秀单个组件搜集，通过创建 [issue](https://github.com/jaywcjlove/react-components-awesome/issues/new/choose) 自动创建 PR 提交合并。
+搜集优秀的 React 组件，通过创建 [issue](https://github.com/jaywcjlove/react-components-awesome/issues/new/choose) 自动创建 PR 提交合并。
 
 ### 表格
 
