@@ -108,6 +108,7 @@ _用一个无模式的临时小弹出窗口通知用户_
 ### 地图
 
 <!--地图 START-->
+- [@uiw/react-baidu-map](https://npmjs.com/package/@uiw/react-baidu-map) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-baidu-map.svg?label=" /> 基于 React 封装的百度地图组件 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-baidu-map)
 - [@uiw/react-amap](https://npmjs.com/package/@uiw/react-amap) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-amap.svg?label=" /> 基于 React 封装的高德地图组件 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-amap)
 <!--地图 END-->
 
