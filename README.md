@@ -21,7 +21,7 @@ React Components Awesome
 - [@egjs/react-infinitegrid](https://npmjs.com/package/@egjs/react-infinitegrid) <img align="bottom" height="13" src="https://img.shields.io/github/stars/naver/egjs-infinitegrid.svg?label=" /> 用于根据各种布局类型无限排列包含内容的卡片元素的模块 [![Open-Source Software][OSS Icon]](https://github.com/naver/egjs-infinitegrid/blob/master/packages/react-infinitegrid)
 - [react-lazyload](https://npmjs.com/package/react-lazyload) <img align="bottom" height="13" src="https://img.shields.io/github/stars/twobin/react-lazyload.svg?label=" /> 延迟加载您的组件、图像或任何其他性能重要的东西 [![Open-Source Software][OSS Icon]](https://github.com/twobin/react-lazyload)
 - [react-list](https://npmjs.com/package/react-list) <img align="bottom" height="13" src="https://img.shields.io/github/stars/caseywebdev/react-list.svg?label=" /> 多功能无限滚动 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/orgsync/react-list)
-- [反应窗口](https://npmjs.com/package/react-window) <img align="bottom" height="13" src="https://img.shields.io/github/stars/bvaughn/react-window.svg?label=" /> React 组件，用于高效呈现大型列表和表格数据 [![Open-Source Software][OSS Icon]](https://github.com/bvaughn/react-window)
+- [react-window](https://npmjs.com/package/react-window) <img align="bottom" height="13" src="https://img.shields.io/github/stars/bvaughn/react-window.svg?label=" /> React 组件，用于高效呈现大型列表和表格数据 [![Open-Source Software][OSS Icon]](https://github.com/bvaughn/react-window)
 - [virtua](https://npmjs.com/package/virtua) <img align="bottom" height="13" src="https://img.shields.io/github/stars/inokawa/virtua.svg?label=" /> 简单、快速、小巧、灵活的虚拟滚动条 [![Open-Source Software][OSS Icon]](https://github.com/inokawa/virtua)
 <!--无限滚动 END-->
 
@@ -57,7 +57,13 @@ _用一个无模式的临时小弹出窗口通知用户_
 
 ### 菜单
 
+_Menus / sidebars_
+
 <!--菜单 START-->
+- [hamburger-react](https://npmjs.com/package/hamburger-react) <img align="bottom" height="13" src="https://img.shields.io/github/stars/luukdv/hamburger-react.svg?label=" /> React 的动画汉堡菜单图标 [![Open-Source Software][OSS Icon]](https://github.com/luukdv/hamburger-react)
+- [react-burger-menu](https://npmjs.com/package/react-burger-menu) <img align="bottom" height="13" src="https://img.shields.io/github/stars/negomi/react-burger-menu.svg?label=" /> 具有效果和样式的非画布侧边栏 [![Open-Source Software][OSS Icon]](https://github.com/negomi/react-burger-menu)
+- [react-offcanvas](https://npmjs.com/package/react-offcanvas) <img align="bottom" height="13" src="https://img.shields.io/github/stars/vutran/react-offcanvas.svg?label=" /> React 的非画布菜单 [![Open-Source Software][OSS Icon]](https://github.com/vutran/react-offcanvas)
+- [react-planet](https://npmjs.com/package/react-planet) <img align="bottom" height="13" src="https://img.shields.io/github/stars/innFactory/react-planet.svg?label=" /> 创建看起来像行星的圆形菜单 [![Open-Source Software][OSS Icon]](https://github.com/innFactory/react-planet)
 <!--菜单 END-->
 
 ### Sticky
@@ -68,6 +74,8 @@ _用一个无模式的临时小弹出窗口通知用户_
 ### 选项卡
 
 <!--选项卡 START-->
+- [react-tabs](https://npmjs.com/package/react-tabs) <img align="bottom" height="13" src="https://img.shields.io/github/stars/reactjs/react-tabs.svg?label=" /> React 选项卡组件 [![Open-Source Software][OSS Icon]](https://github.com/reactjs/react-tabs)
+- [react-tabtab](https://npmjs.com/package/react-tabtab) <img align="bottom" height="13" src="https://img.shields.io/github/stars/ctxhou/react-tabtab.svg?label=" /> React 选项卡 [![Open-Source Software][OSS Icon]](https://github.com/ctxhou/react-tabtab)
 <!--选项卡 END-->
 
 ### 加载
