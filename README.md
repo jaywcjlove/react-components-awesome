@@ -28,6 +28,11 @@ React Components Awesome
 ### 叠加
 
 <!--叠加 START-->
+- [react-aria-modal](https://npmjs.com/package/react-aria-modal) <img align="bottom" height="13" src="https://img.shields.io/github/stars/davidtheclark/react-aria-modal.svg?label=" /> 根据 WAI-ARIA 创作实践构建的完全可访问且灵活的 React 模式 [![Open-Source Software][OSS Icon]](https://github.com/davidtheclark/react-aria-modal)
+- [react-modal](https://npmjs.com/package/react-modal) <img align="bottom" height="13" src="https://img.shields.io/github/stars/reactjs/react-modal.svg?label=" /> React 的可访问模式对话框组件 [![Open-Source Software][OSS Icon]](https://github.com/reactjs/react-modal)
+- [reoverlay](https://npmjs.com/package/reoverlay) <img align="bottom" height="13" src="https://img.shields.io/github/stars/hiradary/reoverlay.svg?label=" /> 缺少管理模式的解决方案 [![Open-Source Software][OSS Icon]](https://github.com/hiradary/reoverlay)
+- [sweetalert2](https://npmjs.com/package/sweetalert2) <img align="bottom" height="13" src="https://img.shields.io/github/stars/sweetalert2/sweetalert2.svg?label=" /> 一个美观、响应迅速、高度可定制和可访问的 (WAI-ARIA) 替代 JavaScript 的弹出框，零依赖 [![Open-Source Software][OSS Icon]](https://github.com/sweetalert2/sweetalert2)
+- [sweetalert2-react-content](https://npmjs.com/package/sweetalert2-react-content) <img align="bottom" height="13" src="https://img.shields.io/github/stars/sweetalert2/sweetalert2-react-content.svg?label=" /> 官方 SweetAlert2 增强器添加了对 React 元素作为内容的支持 [![Open-Source Software][OSS Icon]](https://github.com/sweetalert2/sweetalert2-react-content)
 <!--叠加 END-->
 
 ### 通知
