@@ -18,7 +18,11 @@ React Components Awesome
 ### 无限滚动
 
 <!--无限滚动 START-->
-- [react-window](https://npmjs.com/package/react-window) <img align="bottom" height="13" src="https://img.shields.io/github/stars/bvaughn/react-window.svg?label=" /> 用于高效呈现大型列表和表格数据的 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/bvaughn/react-window)
+- [@egjs/react-infinitegrid](https://npmjs.com/package/@egjs/react-infinitegrid) <img align="bottom" height="13" src="https://img.shields.io/github/stars/naver/egjs-infinitegrid.svg?label=" /> 用于根据各种布局类型无限排列包含内容的卡片元素的模块 [![Open-Source Software][OSS Icon]](https://github.com/naver/egjs-infinitegrid/blob/master/packages/react-infinitegrid)
+- [react-lazyload](https://npmjs.com/package/react-lazyload) <img align="bottom" height="13" src="https://img.shields.io/github/stars/twobin/react-lazyload.svg?label=" /> 延迟加载您的组件、图像或任何其他性能重要的东西 [![Open-Source Software][OSS Icon]](https://github.com/twobin/react-lazyload)
+- [react-list](https://npmjs.com/package/react-list) <img align="bottom" height="13" src="https://img.shields.io/github/stars/caseywebdev/react-list.svg?label=" /> 多功能无限滚动 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/orgsync/react-list)
+- [反应窗口](https://npmjs.com/package/react-window) <img align="bottom" height="13" src="https://img.shields.io/github/stars/bvaughn/react-window.svg?label=" /> React 组件，用于高效呈现大型列表和表格数据 [![Open-Source Software][OSS Icon]](https://github.com/bvaughn/react-window)
+- [virtua](https://npmjs.com/package/virtua) <img align="bottom" height="13" src="https://img.shields.io/github/stars/inokawa/virtua.svg?label=" /> 简单、快速、小巧、灵活的虚拟滚动条 [![Open-Source Software][OSS Icon]](https://github.com/inokawa/virtua)
 <!--无限滚动 END-->
 
 ### 叠加
