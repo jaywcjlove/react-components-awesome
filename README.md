@@ -162,6 +162,7 @@ _Menus / sidebars_
 
 <!--Markdown 预览 START-->
 - [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-markdown-preview.svg?label=" /> 在 Web 浏览器中 React 组件预览 Markdown 文本 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-markdown-preview)
+- [react-markdown](https://npmjs.com/package/react-markdown) <img align="bottom" height="13" src="https://img.shields.io/github/stars/remarkjs/react-markdown.svg?label=" /> Markdown component for Reac [![Open-Source Software][OSS Icon]](https://github.com/remarkjs/react-markdown)
 <!--Markdown 预览 END-->
 
 ### 画布
