@@ -146,6 +146,7 @@ _Menus / sidebars_
 ### 照片/图像
 
 <!--照片/图像 START-->
+- [react-easy-crop](https://npmjs.com/package/react-easy-crop) <img align="bottom" height="13" src="https://img.shields.io/github/stars/ValentinH/react-easy-crop.svg?label=" /> 通过简单的交互来裁剪图像/视频 [![Open-Source Software][OSS Icon]](https://github.com/ValentinH/react-easy-crop)
 <!--照片/图像 END-->
 
 ### Icons 图标
