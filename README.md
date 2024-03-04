@@ -164,6 +164,7 @@ _Menus / sidebars_
 ### Icons 图标
 
 <!--图标 START-->
+- [emoji-mart](https://npmjs.com/package/emoji-mart) <img align="bottom" height="13" src="https://img.shields.io/github/stars/missive/emoji-mart.svg?label=" /> 一个可定制的网页表情符号选择器 [![Open-Source Software][OSS Icon]](https://github.com/missive/emoji-mart)
 <!--图标 END-->
 
 ### Paginator 分页器
