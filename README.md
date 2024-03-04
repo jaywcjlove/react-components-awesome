@@ -124,7 +124,7 @@ _Menus / sidebars_
 
 <!--树 START-->
 - [react-arborist](https://npmjs.com/package/react-arborist) <img align="bottom" height="13" src="https://img.shields.io/github/stars/brimdata/react-arborist.svg?label=" /> React 的完整树视图组件 [![Open-Source Software][OSS Icon]](https://github.com/brimdata/react-arborist)
-- [@uiw/react-json-view](https://npmjs.com/package/@uiw/react-json-view) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-json-view.svg?label=" /> A React component for displaying and editing javascript arrays and JSON objects. [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-json-view)
+- [@uiw/react-json-view](https://npmjs.com/package/@uiw/react-json-view) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-json-view.svg?label=" /> 用于显示和编辑 JS 数组和 JSON 对象的 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-json-view)
 <!--树 END-->
 
 ### 用户界面导航
