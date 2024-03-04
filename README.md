@@ -81,6 +81,7 @@ _Menus / sidebars_
 ### 加载
 
 <!--加载 START-->
+- [react-loader-spinner](https://npmjs.com/package/react-loader-spinner) <img align="bottom" height="13" src="https://img.shields.io/github/stars/mhnpd/react-loader-spinner.svg?label=" /> 用于 React 异步操作的旋转器集合集 [![Open-Source Software][OSS Icon]](https://github.com/mhnpd/react-loader-spinner)
 <!--加载 END-->
 
 ### Carousel
