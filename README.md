@@ -89,6 +89,7 @@ _Menus / sidebars_
 
 <!--Carousel START-->
 - [swiper](https://npmjs.com/package/swiper) <img align="bottom" height="13" src="https://img.shields.io/github/stars/nolimits4web/Swiper.svg?label=" /> 大多数现代移动触摸滑块与硬件加速转换 [![Open-Source Software][OSS Icon]](https://github.com/nolimits4web/Swiper)
+- [react-slick](https://npmjs.com/package/react-slick) <img align="bottom" height="13" src="https://img.shields.io/github/stars/akiran/react-slick.svg?label=" /> React 轮播组件 [![Open-Source Software][OSS Icon]](https://github.com/akiran/react-slick)
 <!--Carousel END-->
 
 ### 按钮
