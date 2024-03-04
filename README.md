@@ -175,6 +175,7 @@ _使用 Canvas 或 SVG 绘制草图输入_
 - [react-sketch](https://npmjs.com/package/react-sketch) <img align="bottom" height="13" src="https://img.shields.io/github/stars/tbolis/react-sketch.svg?label=" /> - 基于 React 的应用程序的 Sketch 工具，由 FabricJS 支持 [![Open-Source Software][OSS Icon]](https://github.com/tbolis/react-sketch)
 - [react-sketch-canvas](https://npmjs.com/package/react-sketch-canvas) <img align="bottom" height="13" src="https://img.shields.io/github/stars/vinothpandian/react-sketch-canvas.svg?label=" /> - 使用 SVG 作为画布的 React 手绘矢量绘图工具 [![Open-Source Software][OSS Icon]](https://github.com/vinothpandian/react-sketch-canvas)
 - [@uiw/react-heat-map](https://npmjs.com/package/@uiw/react-heat-map) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-heat-map.svg?label=" /> - 基于 SVG 构建的轻量级日历热图反应组件，GitHub 贡献图的可定制版本 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-heat-map)
+- [@uiw/react-signature](https://npmjs.com/package/@uiw/react-signature) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-signature.svg?label=" /> 用于 React 的签名板组件 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-signature)
 <!--画布 END-->
 
 ### UI 动画
