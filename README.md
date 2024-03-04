@@ -99,6 +99,7 @@ _Menus / sidebars_
 ### Collapse
 
 <!--Collapse START-->
+- [keen-slider](https://npmjs.com/package/keen-slider) <img align="bottom" height="13" src="https://img.shields.io/github/stars/rcbyr/keen-slider.svg?label=" /> HTML 触摸滑块轮播给您带来最原生的感觉。 [![Open-Source Software][OSS Icon]](https://github.com/rcbyr/keen-slider)
 <!--Collapse END-->
 
 ### 图表
