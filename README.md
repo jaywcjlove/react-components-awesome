@@ -107,6 +107,7 @@ _Menus / sidebars_
 ### 图表
 
 <!--图表 START-->
+- [bizcharts](https://npmjs.com/package/bizcharts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/alibaba/BizCharts.svg?label=" /> 基于G2和 React 的强大数据可视化库  [![Open-Source Software][OSS Icon]](https://github.com/alibaba/BizCharts)
 <!--图表 END-->
 
 ### 命令面板
