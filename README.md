@@ -109,6 +109,7 @@ _Menus / sidebars_
 <!--图表 START-->
 - [frappe-charts](https://npmjs.com/package/frappe-charts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/frappe/charts.svg?label=" /> 简单、灵敏、现代的 SVG 图表，零依赖性 [![Open-Source Software][OSS Icon]](https://github.com/frappe/charts)
 - [bizcharts](https://npmjs.com/package/bizcharts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/alibaba/BizCharts.svg?label=" /> 基于G2和 React 的强大数据可视化库  [![Open-Source Software][OSS Icon]](https://github.com/alibaba/BizCharts)
+- [react-vis](https://npmjs.com/package/react-vis) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uber/react-vis.svg?label=" /> 数据可视化组件 [![Open-Source Software][OSS Icon]](https://github.com/uber/react-vis)
 <!--图表 END-->
 
 ### 命令面板
