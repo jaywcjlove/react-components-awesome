@@ -140,6 +140,7 @@ _Menus / sidebars_
 ### 音频视频
 
 <!--音频视频 START-->
+- [react-player](https://npmjs.com/package/react-player) <img align="bottom" height="13" src="https://img.shields.io/github/stars/CookPete/react-player.svg?label=" /> 一个React组件，用于播放各种url，包括文件路径，YouTube, Facebook. [![Open-Source Software][OSS Icon]](https://github.com/CookPete/react-player)
 <!--音频视频 END-->
 
 ### 地图
