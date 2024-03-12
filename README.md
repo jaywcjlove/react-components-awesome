@@ -204,6 +204,7 @@ _使用 Canvas 或 SVG 绘制草图输入_
 ### 各种各样的
 
 <!--各种各样的 START-->
+- [@git-diff-view/react](https://npmjs.com/package/@git-diff-view/react) <img align="bottom" height="13" src="https://img.shields.io/github/stars/MrWangJustToDo/git-diff-view.svg?label=" /> 类似 Github 的 Diff View 组件 [![Open-Source Software][OSS Icon]](https://github.com/MrWangJustToDo/git-diff-view)
 <!--各种各样的 END-->
 
 [OSS Icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg "Open source ui componet on Github"
