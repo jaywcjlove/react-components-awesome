@@ -171,6 +171,7 @@ _Menus / sidebars_
 - [lexical](https://npmjs.com/package/lexical) <img align="bottom" height="13" src="https://img.shields.io/github/stars/facebook/lexical.svg?label=" /> 一个可扩展的文本编辑器框架，提供出色的可靠性、可访问性和性能 [![Open-Source Software][OSS Icon]](https://github.com/facebook/lexical)
 - [prosemirror-view](https://npmjs.com/package/prosemirror-view) <img align="bottom" height="13" src="https://img.shields.io/github/stars/ProseMirror/prosemirror.svg?label=" /> ProseMirror WYSIWYM 编辑器 [![Open-Source Software][OSS Icon]](https://github.com/ProseMirror/prosemirror)
 - [react-draft-wysiwyg](https://npmjs.com/package/react-draft-wysiwyg) <img align="bottom" height="13" src="https://img.shields.io/github/stars/jpuri/react-draft-wysiwyg.svg?label=" /> 基于 ReactJS 和 DraftJS 的 Wysiwyg 编辑器。 [![Open-Source Software][OSS Icon]](https://github.com/jpuri/react-draft-wysiwyg)
+- [alloyeditor](https://npmjs.com/package/alloyeditor) <img align="bottom" height="13" src="https://img.shields.io/github/stars/liferay/alloy-editor.svg?label=" /> WYSIWYG编辑器基于CKEditor与完全重写的UI [![Open-Source Software][OSS Icon]](https://github.com/liferay/alloy-editor)
 <!--编辑器 END-->
 
 ### Icons 图标
