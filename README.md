@@ -115,6 +115,7 @@ _Menus / sidebars_
 - [@berryv/g2-react](https://npmjs.com/package/@berryv/g2-react) <img align="bottom" height="13" src="https://img.shields.io/github/stars/pearmini/g2-react.svg?label=" /> @antv/g2 的轻量级 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/pearmini/g2-react)
 - [recharts](https://npmjs.com/package/recharts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/recharts/recharts.svg?label=" /> 使用 React 和 D3 重新定义图表库 [![Open-Source Software][OSS Icon]](https://github.com/recharts/recharts/)
 - [victory](https://npmjs.com/package/victory) <img align="bottom" height="13" src="https://img.shields.io/github/stars/FormidableLabs/victory.svg?label=" /> 用于构建交互式数据可视化的可组合React组件集合 [![Open-Source Software][OSS Icon]](https://github.com/FormidableLabs/victory)
+- [lightweight-charts](https://npmjs.com/package/lightweight-charts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/tradingview/lightweight-charts.svg?label=" /> 使用 HTML5 画布制作高效的财务图表(支持 React) [![Open-Source Software][OSS Icon]](https://github.com/tradingview/lightweight-charts)
 <!--图表 END-->
 
 ### 命令面板
