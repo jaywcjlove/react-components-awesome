@@ -167,6 +167,7 @@ _Menus / sidebars_
 ### 编辑器
 
 <!--编辑器 START-->
+- [@editorjs/editorjs](https://npmjs.com/package/@editorjs/editorjs) <img align="bottom" height="13" src="https://img.shields.io/github/stars/codex-team/editor.js.svg?label=" /> 具有简洁 JSON 输出的块式编辑器 [![Open-Source Software][OSS Icon]](https://github.com/codex-team/editor.js)
 <!--编辑器 END-->
 
 ### Icons 图标
