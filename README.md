@@ -177,6 +177,7 @@ _Menus / sidebars_
 - [react-ace](https://npmjs.com/package/react-ace) <img align="bottom" height="13" src="https://img.shields.io/github/stars/securingsincity/react-ace.svg?label=" /> Ace（高级代码编辑器）包装器。 [![Open-Source Software][OSS Icon]](https://github.com/securingsincity/react-ace)
 - [tiptap](https://github.com/ueberdosis/tiptap) <img align="bottom" height="13" src="https://img.shields.io/github/stars/ueberdosis/tiptap.svg?label=" /> web 工匠的无头编辑器框架 [![Open-Source Software][OSS Icon]](https://github.com/ueberdosis/tiptap)
 - [remirror](https://github.com/remirror/remirror) <img align="bottom" height="13" src="https://img.shields.io/github/stars/remirror/remirror.svg?label=" /> 用于 React 的 ProseMirror 工具包 [![Open-Source Software][OSS Icon]](https://github.com/remirror/remirror)
+- [@uiw/react-codemirror](https://npmjs.com/package/@uiw/react-codemirror) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-codemirror.svg?label=" /> CodeMirror 6 的 React 组件 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-codemirror)
 <!--编辑器 END-->
 
 ### Icons 图标
