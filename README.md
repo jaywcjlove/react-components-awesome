@@ -237,6 +237,7 @@ _Menus / sidebars_
 <!--Markdown 预览 START-->
 - [@uiw/react-markdown-preview](https://npmjs.com/package/@uiw/react-markdown-preview) <img align="bottom" height="13" src="https://img.shields.io/github/stars/uiwjs/react-markdown-preview.svg?label=" /> 在 Web 浏览器中 React 组件预览 Markdown 文本 [![Open-Source Software][OSS Icon]](https://github.com/uiwjs/react-markdown-preview)
 - [react-markdown](https://npmjs.com/package/react-markdown) <img align="bottom" height="13" src="https://img.shields.io/github/stars/remarkjs/react-markdown.svg?label=" /> Markdown component for Reac [![Open-Source Software][OSS Icon]](https://github.com/remarkjs/react-markdown)
+- [markstream-react](https://npmjs.com/package/markstream-react) <img align="bottom" height="13" src="https://img.shields.io/github/stars/Simon-He95/markstream-vue.svg?label=" /> 面向 React、Next.js 和 Remix AI 聊天界面的流式 Markdown 渲染组件，支持不完整 Markdown、渐进式 Mermaid、KaTeX、流式代码块和长文本渲染，适合 LLM token 流、SSE/WebSocket 输出等内容持续更新的场景。 [![Open-Source Software][OSS Icon]](https://github.com/Simon-He95/markstream-vue)
 <!--Markdown 预览 END-->
 
 ### 画布
