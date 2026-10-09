@@ -157,6 +157,7 @@ _Menus / sidebars_
 - [recharts](https://npmjs.com/package/recharts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/recharts/recharts.svg?label=" /> 使用 React 和 D3 重新定义图表库 [![Open-Source Software][OSS Icon]](https://github.com/recharts/recharts/)
 - [victory](https://npmjs.com/package/victory) <img align="bottom" height="13" src="https://img.shields.io/github/stars/FormidableLabs/victory.svg?label=" /> 用于构建交互式数据可视化的可组合React组件集合 [![Open-Source Software][OSS Icon]](https://github.com/FormidableLabs/victory)
 - [lightweight-charts](https://npmjs.com/package/lightweight-charts) <img align="bottom" height="13" src="https://img.shields.io/github/stars/tradingview/lightweight-charts.svg?label=" /> 使用 HTML5 画布制作高效的财务图表(支持 React) [![Open-Source Software][OSS Icon]](https://github.com/tradingview/lightweight-charts)
+- [@rekurt/openkline-react](https://npmjs.com/package/@rekurt/openkline-react) <img align="bottom" height="13" src="https://img.shields.io/github/stars/rekurt/openkline-react.svg?label=" /> 用于 OHLCV/K 线图的 TypeScript React 组件和 Hook，支持技术指标和绘图工具。 [![Open-Source Software][OSS Icon]](https://github.com/rekurt/openkline-react)
 <!--图表 END-->
 
 ### 命令面板
